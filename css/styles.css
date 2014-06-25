@@ -1,0 +1,159 @@
+body{
+	padding-top:40px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.bg-1 {
+	background: url('../img/top-compressor.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-2 {
+	background: url('../img/mid-compressor.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('../img/bot-compressor.jpg') no-repeat bottom center fixed;
+	color:#fff;
+	background-size:cover;
+}
+
+.bg-4{
+	height:800px;
+	background:url('../img/verybot-compressor.jpg') no-repeat top fixed;
+	color:#fff;
+	background-size: cover;
+}
+
+.img-circular{
+	 width: 200px;
+	 height: 200px;
+	 background: url('../img/me-compressor.jpg') no-repeat center;
+	 background-size: cover;
+	 display: block;
+	 border-radius: 100px;
+	 -webkit-border-radius:100px;
+	 -moz-border-radius:100px;
+	 border:2px solid #FFB280;
+}
+
+
+.panel-body{
+	opacity:0;
+	background-color:rgba(256,256,256,0.85);
+	transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .4s ease-in-out;
+	-o-transition: opacity .4s ease-in-out;
+}
+
+#pan1{
+	background:url('../img/sp-compressor.png') no-repeat center;
+	background-size: 100%;
+}
+
+#pan2{
+	background:url('../img/5hugs-compressor.png') no-repeat center;
+	background-size:100%;
+}
+
+#pan3{
+	background:url('../img/website-compressor.jpg') no-repeat center;
+	background-size: 100%;
+}
+
+#pan4{
+	background:url('../img/next-compressor.png') no-repeat center;
+	background-size: 100%;
+}
+
+.projectContainer{
+	height:120px;
+	transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-webkit-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+
+	transition-delay: .2s;
+	-moz-transition-delay: .2s;
+	-webkit-transition-delay: .2s;
+	-o-transition-delay: 0.2s;
+}
+
+.projectContainer:hover .panel-body{
+	opacity:1;
+	transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+
+}
+
+
+@media (min-width: 992px) {
+	.projectContainer:hover{
+		height:400px;
+		transition: .5s ease-in-out;
+		-moz-transition: .5s ease-in-out;
+		-webkit-transition: .5s ease-in-out;
+		-o-transition: .5s ease-in-out;
+
+
+	}
+
+	.projectContainer:hover .panel-body{
+		opacity:1;
+		transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-webkit-transition: opacity .5s ease-in-out;
+		-o-transition: opacity .5s ease-in-out;
+
+	}
+}
+
+
+@media (min-width: 0px) and (max-width: 992px) {
+	.projectContainer{
+		height:80px;
+		transition: .5s ease-in-out;
+		-moz-transition: .5s ease-in-out;
+		-webkit-transition: .5s ease-in-out;
+		-o-transition: .5s ease-in-out;
+
+		transition-delay: .2s;
+		-moz-transition-delay: .2s;
+		-webkit-transition-delay: .2s;
+		-o-transition-delay: 0.2s;
+	}
+
+	.projectContainer:hover{
+		height:300px;
+		transition: .5s ease-in-out;
+		-moz-transition: .5s ease-in-out;
+		-webkit-transition: .5s ease-in-out;
+		-o-transition: .5s ease-in-out;
+
+
+	}
+}
+
+.contactContainer{
+    text-align: center;
+}
+
+.footer {
+  position: relative;
+  margin-top: 0px; /* negative value of footer height */
+
+  margin-bottom: -20px;
+  padding-bottom:-20px;
+} 
